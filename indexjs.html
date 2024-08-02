@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h1 class="HTag">Hello</h1>
+    <h1 id="H1-tag">hello</h1>
+    <script>
+        // 1. document
+        // 2. window
+        // document.body.append("Hello")
+        // const bodyTag = document.body;
+        // const newDivTag1 = document.createElement("div");
+        // const newDivTag2 = document.createElement("div");
+        // newDivTag1.innerText = 'Hello';
+        // newDivTag2.innerText = 'Hello';        
+        // bodyTag.append(newDivTag1)
+        // bodyTag.append(newDivTag2)
+
+        // Selectors
+        // 1. getElementById
+        // 2. querySelector
+        // 3. querySelectorAll
+        // 4. getElementByClassName
+
+        const h1tagById = document.getElementById('H1-tag');
+        h1tagById.style.color = 'red'
+        // const h1tagByClass = document.getElementsByClassName("HTag");
+        // h1tagByClass.innerHTML = 'Bye'
+        // const allTags = document.querySelectorAll("h1")
+        const alltag2 = document.querySelector("#H1-tag");
+        let paymentStatus = '';
+        paymentStatus = ''
+        if(paymentStatus === 'Succeed'){
+            alltag2.style.backgroundColor = 'green'
+        } else {
+            alltag2.style.backgroundColor = 'black'
+        }
+        // alltag2.style.backgroundColor = 'red'
+
+    </script>
+</body>
+</html>
+
+<!-- 1. sticky
+2. getElementsByClassName
+3. window open 
+4. querySelectorAll -->

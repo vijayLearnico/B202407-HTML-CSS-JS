@@ -1,0 +1,26 @@
+.bg {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 60vh;
+    width: 70vw;
+    padding: 5rem;
+}
+
+.img-holder{
+    background-color: white;
+    height: 10rem;
+    width: 15rem;
+    margin: 2rem;
+}
+
+.option {
+    background-color: coral;
+    height: 5rem;
+    width: 7rem;
+    margin: 1rem;
+}
+
+img{
+    height: 5rem;
+    width: 7rem;
+    object-fit: cover;
+}
